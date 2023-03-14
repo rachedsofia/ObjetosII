@@ -9,11 +9,11 @@ public class TiempoAnemico {
 		this.fecha = fecha;
 	}
 
-	public LocalDate getMyDate() {
+	public LocalDate getFecha() {
 		return fecha;
 	}
 
-	public void setMyDate(LocalDate myLocalDate) {
+	public void setFecha(LocalDate myLocalDate) {
 		this.fecha = myLocalDate;
 	}
 
