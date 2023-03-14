@@ -1,5 +1,7 @@
 package Modelo;
 
-public record TiempoRecord() {
+import java.time.LocalDate;
+
+public record TiempoRecord(LocalDate fecha) {
 
 }
